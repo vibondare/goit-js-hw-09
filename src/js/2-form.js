@@ -14,8 +14,6 @@ function saveDataFromInputAndTextarea(event) {
     }
 
     localStorage.setItem("feedback-form-state", JSON.stringify(feedbackFormState));
-
-    console.log(feedbackFormState);
 }
 
 function formSubmit(event) {
